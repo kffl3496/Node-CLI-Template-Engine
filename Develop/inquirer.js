@@ -2,9 +2,10 @@ function init() {
   const inquirer = require('inquirer');
   inquirer.prompt([
     {
-      name: 'username',
-      message: 'Enter Git Username:',
-      default: ''
+        Employee = {
+            name: 'title',
+            message: 'Enter your name'
+        }
     },
     {
       name: 'title',

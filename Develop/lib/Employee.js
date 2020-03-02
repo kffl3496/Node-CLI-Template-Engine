@@ -1,5 +1,4 @@
 // TODO: Write code to define and export the Employee class
-const Employee = require('./lib/Employee.js');
 
 class Employee {
     constructor(name, id, email) {
@@ -8,24 +7,22 @@ class Employee {
         this.email = email;
     }
     getName() {
-
+        return this.name;
     }
     getId() {
-
+        return this.id;
     }
     getEmail() {
-
+        return this.email;
     }
     getRole() {
-
+        return "Employee";
     }
 }
 
-Employee.getName();
-Employee.getId();
-Employee.getEmail();
-Employee.getRole();
+// Employee.getName();
+// Employee.getId();
+// Employee.getEmail();
+// Employee.getRole();
 
-module.exports = {
-    Employee
-};
+module.exports = Employee;
