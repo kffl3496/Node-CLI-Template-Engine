@@ -12,10 +12,8 @@ const render = require('./lib/htmlRenderer');
 
 inquirer.prompt([
         {
-            name: "What is the Manager's name?",
-            id: "What is the Manager's ID?",
-            email: "What is the Manager's E-mail?",
-            officeNumber: "What is the Manager's office number?"
+            name: 'Manager',
+            message: 'What is the Managers name?'
         },
         {
             name: "What is the Engineer's name?",
